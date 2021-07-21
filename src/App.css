@@ -1,5 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #dddddd;
+  width: 950px;
+  /* height: 1000px; */
+  margin: 0px auto;
 }
 
 .App-logo {
@@ -36,3 +45,42 @@
     transform: rotate(360deg);
   }
 }
+
+#Header {
+  background-color: #6aa84f;
+  height: 100px;
+  margin: 0px 15px;
+  border: 2px black solid;
+}
+
+#Navigation {
+  background-color: #6fa8dc;
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 0px 10px 15px;
+  border: 2px black solid;
+  vertical-align: top;
+}
+
+#Main {
+  background-color: #e06666;
+  width: 74%;
+  height: 500px;
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+  border: 2px black solid; 
+}
+.SubContents{
+  min-height: 300px;
+  width: 30%;
+  background-color: #ffd966;
+  display: inline-block;
+  margin: 20px 0px 20px 20px;
+ }
+ #Advertisement{
+  min-height: 120px;
+  width: 670px;
+  background-color: purple;
+  margin: 20px;
+ }
